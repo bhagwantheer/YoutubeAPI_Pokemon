@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<title>Pokemon Basic Information Search</title>
+	<link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="topBar">
+			
+			<div class="navigationBar">
+				<nav>
+					<ul>
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="poketube.html">PokeTube</a>
+						</li>
+						<li>
+							<a href="memoryIndex.html">Game</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<div class="wrapper">
+		<form id="pokemonForm" name="pokemonForm">
+
+			<div class="userInput-items">
+				<input class="inputBox" type="text" placeholder="Pokemon Name" onfocus="this.placeholder = ''"
+onblur="this.placeholder = 'enter your text'" /> 
+				<input class="submitBtn" type="submit"> 
+			</div>
+		</form>
+		<div class="hidden pokeCards-container">
+			<div class="hidden pokeCards-background">
+				<div class="hidden pokeCards"></div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		Created by <strong>Bhagwant Kaur</strong>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js">
+	</script> 
+	<script src="js/script1.js" type="text/javascript">
+	</script>
+</body>
+</html>
